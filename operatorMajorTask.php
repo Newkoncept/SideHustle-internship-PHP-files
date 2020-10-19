@@ -57,3 +57,5 @@
     echo "<p>This program divides two variables and return their remainder if there is any.</p>";
     $mod = $num1 % $num2;
     echo "$num1 % $num2 = ".$mod;
+
+?>
