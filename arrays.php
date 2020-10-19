@@ -69,9 +69,11 @@
     
     // Output the names of the class teachers and their subjects
     echo "<h3>The name of our teachers and their subject</h3>";
-    echo "Teacher ".($schoolDetails["teacherNames"][0])." is the teacher hsndling <strong>". ($schoolDetails["subject"][0])."</strong><br />";
-    echo "Teacher ".($schoolDetails["teacherNames"][1])." is the teacher hsndling <strong>". ($schoolDetails["subject"][1])."</strong><br />";
-    echo "Teacher ".($schoolDetails["teacherNames"][2])." is the teacher hsndling <strong>". ($schoolDetails["subject"][2])."</strong><br />";
-    echo "Teacher ".($schoolDetails["teacherNames"][3])." is the teacher hsndling <strong>". ($schoolDetails["subject"][3])."</strong><br />";
-    echo "Teacher ".($schoolDetails["teacherNames"][4])." is the teacher hsndling <strong>". ($schoolDetails["subject"][4])."</strong><br />";
-    echo "Teacher ".($schoolDetails["teacherNames"][5])." is the teacher hsndling <strong>". ($schoolDetails["subject"][5])."</strong><br />";
+    echo "Teacher ".($schoolDetails["teacherNames"][0])." is the teacher handling <strong>". ($schoolDetails["subject"][0])."</strong><br />";
+    echo "Teacher ".($schoolDetails["teacherNames"][1])." is the teacher handling <strong>". ($schoolDetails["subject"][1])."</strong><br />";
+    echo "Teacher ".($schoolDetails["teacherNames"][2])." is the teacher handling <strong>". ($schoolDetails["subject"][2])."</strong><br />";
+    echo "Teacher ".($schoolDetails["teacherNames"][3])." is the teacher handling <strong>". ($schoolDetails["subject"][3])."</strong><br />";
+    echo "Teacher ".($schoolDetails["teacherNames"][4])." is the teacher handling <strong>". ($schoolDetails["subject"][4])."</strong><br />";
+    echo "Teacher ".($schoolDetails["teacherNames"][5])." is the teacher handling <strong>". ($schoolDetails["subject"][5])."</strong><br />";
+
+?>
